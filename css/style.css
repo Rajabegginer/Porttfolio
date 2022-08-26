@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* for header*/
+
+header {
+    background-color: dodgerblue;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+/* for navbar*/
+nav  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: deepskyblue;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgb(17, 173, 224);
+    color: white;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    padding: 12px 16px;
+    text-align: left;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: rgb(17, 173, 224);
+    color: white;
+}
+
+.search {
+    float: right;
+    margin: 10px 8px;
+}
+
+.search input {
+ padding: 4px;
+ border: 1px solid lightgray;
+ border-radius: 8px;
+
+}
+
+/* for home page box*/
+
+.box {
+    background-color: rgb(245, 252, 255);
+    max-width: 500px;
+    color: dodgerblue;
+    padding: 8px 16px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid dodgerblue;
+    border-radius: 8px;
+}
+
+.info h3 {
+    margin-top: 2px;
+}
+
+.box p, h3, h2 {
+    margin: 16px 8px;
+}
+
+
+
+/* for table
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+  
+}
+
+th {
+    background-color: deepskyblue;
+    color: white;
+}
+td {
+    background-color:rgb(168, 220, 238);
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.table-box {
+   margin: 40px 8px;
+}
+
+.tab h2 {
+    margin: 16px 0;
+    margin-top: 40px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px 8px;
+    text-align: center;
+
+}
+
+*/
+
+
+/* for homepage box img*/
+
+.pic {
+    max-width: 500px;
+    
+    
+}
+
+img {
+ max-width: 100%;
+}
+.pic p {
+    margin: 16px;
+   
+}
+
+/* for footer*/
+
+footer h3 {
+background-color: darkblue;
+padding: 8px 20px;
+margin: 0;
+color: white;
+text-align: center;
+font-size: 16px;
+}
+
+
+/* for form*/
+.form {
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 40px 16px;
+    padding: 50px 20px;
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 1px solid darkblue;
+    color: darkblue;
+}
+
+form input {
+    padding: 8px 4px;
+    margin: 8px 0;
+    width: 100%;
+color: darkblue;
+border-radius: 8px;
+border: 1px solid lightgray;
+}
+
+section h2 {
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+form input[type=submit] {
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(13, 13, 192);
+}
+
+/* for about us page*/
+
+.about {
+    margin-top: 40px;
+}
+
+.sec {
+    margin: 16px 0;
+    background-color: aliceblue;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+
+}
+
+/* for about us page img*/
+
+.img{
+    max-width: 300px;
+    float: left;
+    margin-right: 20px ;
+}
+
+.about p {
+    padding: 16px;
+   
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+    background-color: azur;
+}
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*for services*/
+
+.services-box .services {
+    max-width: 300px;
+    background-color: dodgerblue;
+    margin: 30px 16px;
+    padding: 16px 8px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+border-radius: 8px;
+box-shadow:  8px 12px 16px 0px rgba(0,0,0,0.3);
+
+}
+
+.services-box{
+    text-align: center;
+}
+
+.services-box .services h2 {
+    background-color: dodgerblue;
+    
+}
+.services-box .services p {
+    
+    margin-bottom: 10px;
+}
+
+.article-services {
+    background-color: deepskyblue;
+    margin: 40px 8px;
+    padding: 36px 24px;
+    color: white;
+    border-radius: 8px;
+}
+.article-services h3 {
+    margin: 16px 0px;
+}
+
+.article1 {
+    background-color: deepskyblue;
+    color: white;
+    margin: 40px 8px;
+    padding: 36px 24px;
+    border-radius: 8px;
+}
+
+.article1 h2 {
+    background-color: deepskyblue;
+    padding-top: 0;
+}
+
+/*for buttons*/
+
+.btn {
+    padding: 4px 16px;
+    border-radius: 12px;
+    border-color: dodgerblue;
+    font-weight: bolder;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+#eren-img {
+    display: none;
+}
+
+.btn-lg{
+    width: 100%;
+    padding: 12px 0;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*for menu buttons*/
+
+.menu {
+    display: none;
+}
+.cross {
+    float: right;
+    display: none;
+}
+
+/*for table buttons*/
+
+#tabon {
+    display: none;
+}
+
+.tablebtn, .pic-btn {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#taboff {
+    display: none;
+}
+
+/*for skill bar*/
+
+.skill-main {
+   background-color: aliceblue;
+   padding: 20px;
+   margin: 40px 8px;
+   
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: dodgerblue;
+    margin: 16px 0;
+    
+
+}
+.skill-main h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.skill-box h2 {
+    margin-right: 10px;
+}
+
+.skill-max {
+    width: 60%;
+    height: 30px;
+    background-color: deepskyblue;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+}
+
+.skill-level p {
+    padding-top: 6px;
+}
+
+.skill-level {
+    
+   border-radius: 12px;
+    height: 30px;
+    background-color: dodgerblue;
+    animation-name: level;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+
+/*for animatoin of skill bar */
+
+@keyframes level {
+    from {width: 0%;}
+    
+}
+
+/*for about me in home page*/
+
+.info {
+    background: aliceblue;
+    padding: 36px 24px;
+    color: dodgerblue;
+    
+}
+
+
+/* for reposiveness*/
+
+@media only screen and (max-width:800px) {
+    #navbar {
+        display: none;
+    }
+
+    .menu {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    li {
+        width: 100%;
+    }
+    
+    table {
+        font-size: 3vw;
+    }
+
+    .sec .img {
+        margin:0;
+        margin-bottom: 8px;
+        max-width: 100%;
+        float: none;
+    }
+
+    form {
+       
+        width: 100%;
+        padding: 30px 18px;
+    }
+    .search {
+        float: none;
+        text-align: center;
+    }
+
+    
+}
+
+@media only screen and (max-width:425px) {
+    .disno, #navbar {
+        display: none;
+    }
+    .menu {
+        display: inline;
+    }
+    
+}
+
+@media only screen and (min-width:800px){
+    .cross, .menu {
+        display: none;
+    }
+}
