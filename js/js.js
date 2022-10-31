@@ -37,3 +37,4 @@ function pic2() {
     document.getElementById('my-img').style.display="inline";
     document.getElementById('eren-img').style.display="none";
 }
+    
