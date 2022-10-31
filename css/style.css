@@ -155,12 +155,16 @@ table {
 
 img {
  max-width: 100%;
-    border-radius: 40% 40%;
+  
 }
 .pic p {
     margin: 16px;
    
 }
+
+.pc img {
+  border-radius: 50% 20%;
+}    
 
 /* for footer*/
 
