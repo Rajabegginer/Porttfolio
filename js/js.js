@@ -25,7 +25,7 @@ function tableoff() {
 }
 
 function pic() {
-    document.getElementById('pic').src="pic/raja2.jpg";
+    document.getElementById('pic').src="raja2.jpg";
     document.getElementById('text').innerHTML="My Name Is Rajkumar Oad";
     document.getElementById('my-img').style.display="none";
     document.getElementById('eren-img').style.display="inline";
